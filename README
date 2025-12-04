@@ -1,0 +1,10 @@
+Commands to run the code:-
+check python version incase u dont have download it 
+>>pip install -r requirements.text
+>>python
+>>import nltk
+nltk.download("punkt")
+nltk.download("stopwords")
+>>exit()
+>>python app.py
+
