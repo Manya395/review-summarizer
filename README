@@ -1,3 +1,7 @@
+This a NLP project am using NLTK for this project this project is used to summarize the review 
+so when theres a huge review instead of reading that whole this just copy past the review in the webpage
+and then you get summarized review.
+I have created a basic frontend using HTML,CSS in this.
 Commands to run the code:-
 check python version incase u dont have download it 
 >>pip install -r requirements.text
