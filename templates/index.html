@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Summarizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Review Summarizer</h2>
+
+<form action="/summarize" method="POST">
+    <textarea name="review" placeholder="Paste your review here..."></textarea>
+    <button type="submit">Summarize</button>
+</form>
+
+{% if summary %}
+<h3>Summary:</h3>
+<p>{{ summary }}</p>
+{% endif %}
+
+</body>
+</html>
